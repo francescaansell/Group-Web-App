@@ -16,12 +16,12 @@ header {
 
 /*GRID Layout and Use of IDS*/
 #gridContainer {
-  padding: 0 0 10px 0;
+  padding: 0 0 0 0;
   margin: 0 0 10px 0; 
   display: grid;
   grid-template-columns: auto, auto, auto;
   grid-gap: 10px;
-  background-color: #f6a69c;
+  background-color: #fd7463;
   font-family: "Alegreya";
   
   
@@ -66,12 +66,32 @@ nav a {
 
 /* Change the color of links on hover */
 nav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #250362;
+
 }
 
 /* Add a color to the active/current link */
 nav a.active {
-  background-color: #f6a69c;
+  background-color: #f04c23;
   color: white;
+}
+
+#intro {
+  background-color: #109999;
+  color: white; 
+  padding: 50px;
+  font-size: large;
+  border-radius: 5px;
+}
+
+#flex {
+  display: flex;
+  flex-direction: row;
+}
+
+/*RESPONSIVE DESIGN */
+@media only screen and (max-width: 900px){
+  #flex {
+    flex-wrap: wrap;
+  }
 }
