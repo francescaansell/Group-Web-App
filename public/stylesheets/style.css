@@ -115,15 +115,14 @@ form {
 #select{
   background-color: #109999;
   color: white; 
-  padding: 200px;
+  padding: 40px;
   margin: 10px;
   font-size: large;
   border-radius: 20px;
 }
 
 #group{
-  height: 20px;
-  width: 20px;
+  text-align: center;
   background-color: #109999;
   opacity: 0;
 }
@@ -133,8 +132,7 @@ form {
 }
 
 #private{
-  height: 20px;
-  width: 20px;
+  text-align: center;
   background-color: #109999;
   opacity:0;
 }
@@ -144,8 +142,7 @@ form {
 }
 
 #emergency{
-  height: 20px;
-  width: 20px;
+  text-align: center;
   background-color: #109999;
   opacity: 0;
 }
