@@ -104,6 +104,55 @@ form {
   padding: 10px 10px 10px 10px;
 }
 
+.userStories{
+  background: #109999;
+  border-radius: 10px; 
+  padding: 10px 10px 10px 10px;
+  color: white;
+  text-align: center;
+}
+
+#select{
+  background-color: #109999;
+  color: white; 
+  padding: 40px;
+  margin: 10px;
+  font-size: large;
+  border-radius: 20px;
+}
+
+#group{
+  text-align: center;
+  background-color: #109999;
+  opacity: 0;
+}
+
+#group:hover{
+  opacity: 1;
+}
+
+#private{
+  text-align: center;
+  background-color: #109999;
+  opacity:0;
+}
+
+#private:hover{
+  opacity: 1;
+}
+
+#emergency{
+  text-align: center;
+  background-color: #109999;
+  opacity: 0;
+}
+
+#emergency:hover{
+  opacity: 1;
+}
+
+
+
 /*RESPONSIVE DESIGN */
 @media only screen and (max-width: 900px){
   #flex {
