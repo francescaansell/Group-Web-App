@@ -104,6 +104,58 @@ form {
   padding: 10px 10px 10px 10px;
 }
 
+.userStories{
+  background: #109999;
+  border-radius: 10px; 
+  padding: 10px 10px 10px 10px;
+  color: white;
+  text-align: center;
+}
+
+#select{
+  background-color: #109999;
+  color: white; 
+  padding: 200px;
+  margin: 10px;
+  font-size: large;
+  border-radius: 20px;
+}
+
+#group{
+  height: 20px;
+  width: 20px;
+  background-color: #109999;
+  opacity: 0;
+}
+
+#group:hover{
+  opacity: 1;
+}
+
+#private{
+  height: 20px;
+  width: 20px;
+  background-color: #109999;
+  opacity:0;
+}
+
+#private:hover{
+  opacity: 1;
+}
+
+#emergency{
+  height: 20px;
+  width: 20px;
+  background-color: #109999;
+  opacity: 0;
+}
+
+#emergency:hover{
+  opacity: 1;
+}
+
+
+
 /*RESPONSIVE DESIGN */
 @media only screen and (max-width: 900px){
   #flex {
