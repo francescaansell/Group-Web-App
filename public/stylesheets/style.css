@@ -14,7 +14,7 @@ header {
   font-size: 20px;
 }
 
-/*GRID Layout and Use of IDS*/
+/*GRID Layout and Use of IDS for nav bar*/
 #gridContainer {
   padding: 0 0 0 0;
   margin: 0 0 10px 0; 
@@ -23,7 +23,6 @@ header {
   grid-gap: 10px;
   background-color: #fd7463;
   font-family: "Alegreya";
-  
   
 }
 
@@ -76,6 +75,8 @@ nav a.active {
   color: white;
 }
 
+/*Index page----------------------------------*/
+
 #intro {
   background-color: #109999;
   color: white; 
@@ -84,11 +85,38 @@ nav a.active {
   border-radius: 5px;
 }
 
-#flex {
+#flex1 {
   display: flex;
   flex-direction: row;
+  /*justify-content: flex-start;*/
+  /*justify-content: space-evenly*/
+  /*justify-content: space-between*/
+
+}
+#flexItem1, #flexItem2, #flexItem3, #flexItem4 {
+  padding: 20px;
+  flex-grow: 0;
+  
+ 
+}
+#flex2 {
+  display: flex;
+  flex-direction: row;
+
+}
+.userStories{
+  background: #109999;
+  border-radius: 10px; 
+  padding: 10px 10px 10px 10px;
+  color: white;
+  text-align: center;
 }
 
+#flexItem4 {
+  margin: 10px;
+}
+
+/* Survery page ------------------------------*/
 form {
   background: #109999;
   border-radius: 3px; 
@@ -98,20 +126,15 @@ form {
 
 }
 
-/* FAQ Page */
+/* FAQ Page -------------------------------------- */
 .questions {
   margin: 10px 20px 20px 20px;
   padding: 10px 10px 10px 10px;
 }
 
-.userStories{
-  background: #109999;
-  border-radius: 10px; 
-  padding: 10px 10px 10px 10px;
-  color: white;
-  text-align: center;
-}
 
+
+/*Therapy Page ----------------------------------- */
 #select{
   background-color: #109999;
   color: white; 
@@ -123,7 +146,10 @@ form {
 
 /*RESPONSIVE DESIGN */
 @media only screen and (max-width: 900px){
-  #flex {
+  #flex1 {
+    flex-wrap: wrap;
+  }
+  #flex2 {
     flex-wrap: wrap;
   }
 }
