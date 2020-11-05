@@ -121,38 +121,6 @@ form {
   border-radius: 20px;
 }
 
-#group{
-  text-align: center;
-  background-color: #109999;
-  opacity: 0;
-}
-
-#group:hover{
-  opacity: 1;
-}
-
-#private{
-  text-align: center;
-  background-color: #109999;
-  opacity:0;
-}
-
-#private:hover{
-  opacity: 1;
-}
-
-#emergency{
-  text-align: center;
-  background-color: #109999;
-  opacity: 0;
-}
-
-#emergency:hover{
-  opacity: 1;
-}
-
-
-
 /*RESPONSIVE DESIGN */
 @media only screen and (max-width: 900px){
   #flex {
