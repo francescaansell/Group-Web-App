@@ -154,13 +154,28 @@ ul > li {
 
 
 /*Therapy Page ----------------------------------- */
-#select{
+.select{
   background-color: #109999;
   color: white; 
   padding: 40px;
-  margin: 10px;
+  margin: 20px;
   font-size: large;
   border-radius: 20px;
+}
+
+.centerImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+button {
+  color: black;
+  background-color: #fd7463;
+  border-radius: 5pt;
+  font-family: Alegreya;
+  font-size: 14pt;
 }
 
 /*RESPONSIVE DESIGN */

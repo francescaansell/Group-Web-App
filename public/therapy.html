@@ -1,10 +1,15 @@
 <html lang="en">
 <head>
+  <!--Resources 
+  https://www.w3schools.com/howto/howto_css_image_center.asp-->
   <title>eTherapy- Therapy</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="images/heart.svg">
   <link rel="stylesheet" href="stylesheets/style.css">
+  <script src="scripts/scripts.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <div id="gridContainer">
@@ -20,50 +25,52 @@
     </div>
     <div id="wrapper">
         <h1>Attending Therapy</h1>
-        <p>Choose a therapy option to begin your session.</p>
+        <p>Choose a therapy option to schedule a session.</p>
     </div>
     <div id="flex">
-        <div id="flexItem1">
-          <div id="select">
-              <div>
-                <h3 style="text-align: center;">Group</h3>
-                <p>
-                  Group Sessions are intended to be safe and collaborative environments for you and others to interact
-                  and talk about issues. Usually, these sessions are for lighter topics and help individuals manage stress.
-                  Attendees often find peace and security in sharing strategies that they use to improve their well-being.
-                </p>
-              </div>
-          </div>
+        <div id="flexItem1" class="select">
+          <h3 style="text-align: center;">Group</h3>
+          <img src="images/groupTherapy.jpg" height="150px" class="centerImg">
+          <p>
+            Group Sessions are intended to be safe and collaborative environments for you and others to interact
+            and talk about issues. Usually, these sessions are for lighter topics and help individuals manage stress.
+            Attendees often find peace and security in sharing strategies that they use to improve their well-being.
+          </p>  
+          <button id ="book" type="button">Book Appointment</button>
         </div>
-        <div id="flexItem2">
-          <div id="select">
-            <div>
-              <h3 style="text-align: center;">Private</h3>
-              <p> 
-                Private sessions are intended to be more personal, occuring between just you and your therapist.
-                During these sessions, you'll spend time with your therapist to indentify key points 
-                that may be causing disruption in your life. These consultation sessions are designed to
-                allow you to set up sessions based on your needs, allowing you to schedule at your convenience. </br> </br>
-                Couples therapy and family therapy will also occur in this category, as you and your family/partner will attend together.
-              </p>
-            </div>
-          </div>
+        <div id="flexItem2" class="select">
+          <h3 style="text-align: center;">Private</h3>
+          <img src="images/privateTherapy.jpg" height="150px" class="centerImg">
+          <p> 
+            Private sessions are intended to be more personal, occuring between just you and your therapist.
+            During these sessions, you'll spend time with your therapist to indentify key points 
+            that may be causing disruption in your life. These consultation sessions are designed to
+            allow you to set up sessions based on your needs, allowing you to schedule at your convenience. </br> </br>
+            Couples therapy and family therapy will also occur in this category, as you and your family/partner will attend together.
+          </p>
+          <button id ="book" type="button">Book Appointment</button>
         </div>
-        <div id="flexItem3">
-          <div id="select">
-            <div>
-              <h3 style="text-align: center;">Emergency</h3>
-              <p>
-                In extreme cases, you can schedule emergency sessions to receive immediate
-                consultation from one of our therapists. In the event that they aren not available
-                to assist you during this time, we will work with you to schedule an immediate
-                appointment with another therapist to ensure that you get the help you need.
-              </p>
-            </div>    
-          </div>
-        </div>
-        <!-- The video chat feature is an API which will be implemented in later sprints. We are considering turning the therapy 
-          type sections into buttons, which will take the user to a page with the video chat feature where they will meet with their therapist. -->
+        <div id="flexItem3" class="select">
+          <h3 style="text-align: center;">Emergency</h3>
+          <img src="images/emergencyTherapy.jpg" heights="150px" class="centerImg">
+          <p>
+            In extreme cases, you can schedule emergency sessions to receive immediate
+            consultation from one of our therapists. In the event that they aren not available
+            to assist you during this time, we will work with you to schedule an immediate
+            appointment with another therapist to ensure that you get the help you need.
+          </p>
+          <button id ="book" type="button">Book Appointment</button>
+        </div> 
+        <div id="bookingjs"></div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
+            <script src="https://cdn.timekit.io/booking-js/v2/booking.min.js" defer></script>
+            <script>
+            window.timekitBookingConfig = {
+              app_key: 'test_widget_key_MMp2648Blb2YZ6X6QK6hvF3LPMGsyvkc',
+              project_id: '7b685819-8fe7-43f8-b93e-5b5d9f6b2b75' 
+            }
+            </script>   
+      </div>
     </div>
 </body>
 </html>
