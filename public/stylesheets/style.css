@@ -178,7 +178,14 @@ form {
   padding: 10px 10px 10px 10px;
   color: white;
   max-width: 900px;
+}
 
+#Submit {
+  color: black;
+  background-color: #fd7463;
+  border-radius: 5pt;
+  font-family: Alegreya;
+  font-size: 14pt;
 }
 
 /* FAQ Page -------------------------------------- */
@@ -209,6 +216,8 @@ ul > li {
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+  max-width: 300px;
+  max-height: 200px;
 }
 
 button {
@@ -219,12 +228,34 @@ button {
   font-size: 14pt;
 }
 
+#bookingjs {
+  max-width: 900px;
+  max-height: 700px;
+}
+/* Review Page -------------------------------------- */
+#reviewFlex {
+  display: flex;
+  color: white;
+}
+
+#rFlex1, #rFlex2 {
+  padding: 20px;
+  margin: 10px;
+  background: #109999;
+  border-radius: 10px;
+
+}
+
+
 /*RESPONSIVE DESIGN */
 @media only screen and (max-width: 900px){
   #flex1 {
     flex-wrap: wrap;
   }
   #flex2 {
+    flex-wrap: wrap;
+  }
+  #reviewFlex {
     flex-wrap: wrap;
   }
 }
