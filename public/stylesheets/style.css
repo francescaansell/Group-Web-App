@@ -2,11 +2,11 @@ body {
   margin: 0;
   padding: 0;
   font-size: 14px;
-  font-family: "Arial";
+  font-family: "Georgia";
 }
 
 #wrapper {
-  margin: 10px 20px 20px 20px;
+  margin: 0px 20px 20px 20px;
   padding: 10px 10px 10px 10px;
 }
 
@@ -14,16 +14,17 @@ header {
   font-size: 20px;
 }
 
-/*GRID Layout and Use of IDS*/
+/*GRID Layout and Use of IDS for nav bar*/
 #gridContainer {
   padding: 0 0 0 0;
-  margin: 0 0 10px 0; 
+  margin: 0 0 0 0; 
   display: grid;
   grid-template-columns: auto, auto, auto;
   grid-gap: 10px;
   background-color: #fd7463;
   font-family: "Alegreya";
-  
+  position: fixed;
+  width: 100%;
   
 }
 
@@ -76,6 +77,12 @@ nav a.active {
   color: white;
 }
 
+/*Index page----------------------------------*/
+
+h1 { 
+  margin-top: 100px;
+}
+
 #intro {
   background-color: #109999;
   color: white; 
@@ -84,11 +91,87 @@ nav a.active {
   border-radius: 5px;
 }
 
-#flex {
+#flex1 {
   display: flex;
   flex-direction: row;
+  /*justify-content: flex-start;*/
+  /*justify-content: space-evenly*/
+  /*justify-content: space-between*/
+
+}
+#flexItem1, #flexItem2, #flexItem3, #flexItem4 {
+  padding: 20px;
+  flex-grow: 0;
+  
+ 
+}
+#flex2 {
+  display: flex;
+  flex-direction: row;
+
+}
+.userStories{
+  background: #109999;
+  border-radius: 10px; 
+  padding: 10px 10px 10px 10px;
+  color: white;
+  text-align: center;
 }
 
+#flexItem4 {
+  margin: 10px;
+}
+
+h2 {
+  padding-top: 40px;
+}
+
+td {
+  padding: 10px ;  
+}
+
+.slideshow-container{
+  width: 400px;
+  max-width:400px;
+  min-width:90px;
+  min-height:90px;
+  border: 5px solid black;
+  overflow:hidden;
+  position: relative;
+  margin:auto;
+  
+}
+
+.slideshow-slide{
+  display: flex;
+  width: 400px;
+  max-width:400px;
+  min-width:90px;
+  min-height:90px;
+  height: 400px;
+}
+
+#prevBtn{
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+}
+
+#nextBtn{
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+}
+
+/* Survery page ------------------------------*/
 form {
   background: #109999;
   border-radius: 3px; 
@@ -98,64 +181,50 @@ form {
 
 }
 
-/* FAQ Page */
+/* FAQ Page -------------------------------------- */
 .questions {
   margin: 10px 20px 20px 20px;
   padding: 10px 10px 10px 10px;
 }
 
-.userStories{
-  background: #109999;
-  border-radius: 10px; 
-  padding: 10px 10px 10px 10px;
-  color: white;
-  text-align: center;
+ul > li {
+  list-style-type: circle; 
+  padding: 5px;
 }
 
-#select{
+
+
+/*Therapy Page ----------------------------------- */
+.select{
   background-color: #109999;
   color: white; 
   padding: 40px;
-  margin: 10px;
+  margin: 20px;
   font-size: large;
   border-radius: 20px;
 }
 
-#group{
-  text-align: center;
-  background-color: #109999;
-  opacity: 0;
+.centerImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
-#group:hover{
-  opacity: 1;
+button {
+  color: black;
+  background-color: #fd7463;
+  border-radius: 5pt;
+  font-family: Alegreya;
+  font-size: 14pt;
 }
-
-#private{
-  text-align: center;
-  background-color: #109999;
-  opacity:0;
-}
-
-#private:hover{
-  opacity: 1;
-}
-
-#emergency{
-  text-align: center;
-  background-color: #109999;
-  opacity: 0;
-}
-
-#emergency:hover{
-  opacity: 1;
-}
-
-
 
 /*RESPONSIVE DESIGN */
 @media only screen and (max-width: 900px){
-  #flex {
+  #flex1 {
+    flex-wrap: wrap;
+  }
+  #flex2 {
     flex-wrap: wrap;
   }
 }
