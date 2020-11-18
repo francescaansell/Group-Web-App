@@ -216,7 +216,7 @@ form {
 }
 
 /* FAQ Page -------------------------------------- */
-.questions {
+.questions, .newQuestion{
   margin: 10px 20px 20px 20px;
   padding: 10px 10px 10px 10px;
 }
@@ -226,6 +226,10 @@ ul > li {
   padding: 5px;
 }
 
+/* FROM EXAMPLE */
+.show {
+  display: block;
+}
 
 
 /*Therapy Page ----------------------------------- */
