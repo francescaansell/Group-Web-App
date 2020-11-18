@@ -7,7 +7,7 @@
   <link rel="icon" href="images/heart.svg">
   <script src="https://kit.fontawesome.com/10a3ef5933.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="stylesheets/style.css">
-  <script src="scripts/slideshow.js"></script>
+  <script src="scripts/slideshow.js" defer></script>
  
 </head>
 <body>
@@ -22,8 +22,19 @@
     </nav>
     <p id="gridItem3"> Login </p>
   </div>
+  
   <div id="wrapper">
+    <!-- Slide Show -->
+    <div class="slideshow-container">
+      <div class="mySlides">
+        <img src="images/slide1.jpg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <img src="images/slide2.jpg" style="width:100%">
+      </div>
+    </div>
 
+    <div id="indexPage">
     <!-- Top of page -->
     <h1>Home</h1>
     <p id=intro>eTherapy is a telemedicine service dedicated to assisting individuals with tackling their mental health issues. 
@@ -88,19 +99,19 @@
 
     </div>
 
-    <!-- User stories -->
+    <!-- User stories 
     <h2>User Stories</h2>
     <div class="slideshow-container">
       <i class="fas fa-arrow-left" id="prevBtn"></i>
       <i class="fas fa-arrow-right" id="nextBtn"></i>
-      <div class="slideshow-slide">
+      Frankie <div class="slideshow-slide">
         <img src="images/marioHeadshot.jpg" id="lastClone" alt="">
        <h3>David and Elaina Finch</h3><br>
         <p>
           &quot;Seeing a counsler at eTherapy saved our marriage. We were able to talk about our problems and discover methods for working through issues.
           I would recommend anyone who is working through a tough spot in their marriage to seek couples therapy at eTherapy.<strong> 
           As a husband, I want to save my marriage because I love and care for my wife greatly.&quot;</strong>
-        </p> -->
+        </p>
         <img src="images/davidHeadshot.jpg" alt="">
         <h3>Mary-Anne Mendoza</h3>
         <p>
@@ -108,7 +119,7 @@
           I began attending group therapy at eTherapy with other people who experiened the same tramua as me. I was able to talk about my 
           experiences and learned how to cope with them in my every day life. 
           <strong>I am a survior and am beginning to find peace within my past, so that I can experience the present.&quot;</strong>
-        </p> -->
+        </p> 
         <img src="images/maryHeadshot.jpg" alt="">
         <h3>Mario Portnoy</h3>
         <p>
@@ -116,7 +127,7 @@
           I decided to attend therapy through eTherapy to take control of my life and 
           expand my career. <strong>I still have a long road ahead of me but I have made great strides in controlling my anxitey.&quot;</strong>
           I struggled with social anxitey all of my life. I decided to attend therapy at eTherapy to take control of my life. 
-        </p> -->
+        </p> 
         <img src="images/marioHeadshot.jpg" alt="">
         <img src="images/davidHeadshot.jpg" id="firstClone" alt="">
       </div>
@@ -125,7 +136,7 @@
     </button>
     <button id="nextBtn">
     </button>
-    
+  -->
 
     <div id="flex2" class="userStories">
       <div id="flexItem1">
@@ -154,12 +165,13 @@
         </p>
       </div>
     </div>
-    <br> -->
+    <br>
     
     <!-- Learn more link -->
     <div class=furtherInfo>
       <p> If you would like to learn more about eTherapy and our licensed therapists, please visit our <a href="faq.html">FAQ page</a>.</p>
     </div>
+  </div>
 </div>
 </body>
 </html>
