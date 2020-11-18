@@ -130,6 +130,47 @@ td {
   padding: 10px ;  
 }
 
+.slideshow-container{
+  width: 400px;
+  max-width:400px;
+  min-width:90px;
+  min-height:90px;
+  border: 5px solid black;
+  overflow:hidden;
+  position: relative;
+  margin:auto;
+  
+}
+
+.slideshow-slide{
+  display: flex;
+  width: 400px;
+  max-width:400px;
+  min-width:90px;
+  min-height:90px;
+  height: 400px;
+}
+
+#prevBtn{
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+}
+
+#nextBtn{
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+}
+
 /* Survery page ------------------------------*/
 form {
   background: #109999;
