@@ -9,22 +9,20 @@ _Francesca Ansell, Elissa McNeil, Dylan Tellei_
 
 # Sprint Two: 
 ## Contribution Breakdown:
-#### Overall:
-
 #### Home Page:
 Dylan added a slideshow using Javascript to enhance the format of the home page, drawing users in. 
 
 #### Getting Started Page:
+Frankie fixed up some previous issues that we had with the survey.
 
 #### Attend Therapy Page:
 Frankie added a scheduling API, so that users can schedule their sessions. 
 
 #### Ratings:
-Elissa added a system for users to create reviews and ratings for eTherapy, as well as a reviews section that lists others' reviews for viewing. 
+Frankie added a system for users to create reviews and ratings for eTherapy, as well as a reviews section that lists others' reviews for viewing. 
 
 #### FAQ: 
 Elissa used Javascript to create interactive drop-down boxes for the questions and answers. Elissa also added the question submission form with javascript.
-
 
 # Sprint One:
 ## Contribution Breakdown: 
