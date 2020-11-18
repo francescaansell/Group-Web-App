@@ -7,6 +7,26 @@ _Francesca Ansell, Elissa McNeil, Dylan Tellei_
   - Ensure that the command works and that there are no errors.
 3. Open up a webpage, and type in "localhost:3000." Hit enter. The webpage should be visible. 
 
+# Sprint Two: 
+## Contribution Breakdown:
+#### Overall:
+
+#### Home Page:
+Dylan added a slideshow using Javascript to enhance the format of the home page, drawing users in. 
+
+#### Getting Started Page:
+
+#### Attend Therapy Page:
+Frankie added a scheduling API, so that users can schedule their sessions. 
+
+#### Ratings:
+Elissa added a system for users to create reviews and ratings for eTherapy, as well as a reviews section that lists others' reviews for viewing. 
+
+#### FAQ: 
+Elissa used Javascript to create interactive drop-down boxes for the questions and answers. Elissa also added the question submission form with javascript.
+
+
+# Sprint One:
 ## Contribution Breakdown: 
 #### Overall:
 Francesca created the basis of the wesbite by creating the Header, Navigation bar, and the Ability to Navigate Between Pages.
