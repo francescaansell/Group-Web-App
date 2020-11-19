@@ -24,32 +24,31 @@
         <h1>Frequently Asked Questions</h1>
         <h3>View common questions that are asked by our clients.</h3>
         <p>If you would like to ask a question that is not listed in our FAQ, you can submit your question at the bottom of the page. </p>
-    </div>
     
     <!-- FAQ Questions and Answers - going to use javascript to make the FAQ responsive -->
     <div class="questions">
         <div class="dropdown">
-            <button onclick="myFunction()" class="dropDownBtn"><strong>What is eTherapy?</strong></button>
-            <div id="dropDownInfo" class="dropdown-content">
+            <button onclick="myFunction(1)" class="dropDownBtn"><strong>What is eTherapy?</strong></button>
+            <div id="dropDownInfo1" class="dropdown-content">
               <p>eTherapy is an online therapy platform focused on providing individuals and families with a variety of services. We aim to make our services easily and quickly accessible, as well as private, secure, and trusted.</p>
             </div>
         </div>
 
         <div class="dropdown">
-            <button onclick="myFunction()" class="dropDownBtn"><strong>Who will be my therapist?</strong></button>
-            <div id="dropDownInfo" class="dropdown-content">
+            <button onclick="myFunction(2)" class="dropDownBtn"><strong>Who will be my therapist?</strong></button>
+            <div id="dropDownInfo2" class="dropdown-content">
               <p>Our therapists are licensed and trained in their area of study. We have a variety of therapists, each with a specific focus. You may reach out 
                 to a specific therapist if you would like to begin sessions with them or you can use the survey to be matched with therapists that suit your needs. All of our therapists are listed on the home page for further viewing.</p>
             </div>
         </div>
 
         <div class="dropdown">
-            <button onclick="myFunction()" class="dropDownBtn"><strong>How can I be sure that the therapists are certified?</strong></button>
-            <div id="dropDownInfo" class="dropdown-content">
-              <p>Each of our therapists are hired following an in-depth background check, ensuring that their lincenses are real and up-to-date. All therapists must complete several training sessions with eTherapy before being accepted.x</p>
+            <button onclick="myFunction(3)" class="dropDownBtn"><strong>How can I be sure that the therapists are certified?</strong></button>
+            <div id="dropDownInfo3" class="dropdown-content">
+              <p>Each of our therapists are hired following an in-depth background check, ensuring that their lincenses are real and up-to-date. All therapists must complete several training sessions with eTherapy before being accepted.</p>
             </div>
         </div>
-
+        <br>
 
         <p><strong>How can I be sure that the therapists are certified?</strong></p>  
         <p>Each of our therapists are hired following an in-depth background check, ensuring that their lincenses are real and up-to-date. All therapists must complete several training sessions with eTherapy before being accepted.</p> 
@@ -122,24 +121,16 @@
         </div>
         <div id= "questionForm">
             <label for = "fname" class = "formlabel">First Name</label> <br>
-            <input type = "text" id="fname" name="firstname" placeholder="First Name"> </br>
+            <input type = "text" id="fname" name="firstname" placeholder="First Name"> </br><br>
             <label for = "lname" class = "formlabel"> Last Name</label> <br>
-            <input type = "text" id = "lname" name = "lastname" placeholder = "Last Name"> </br>
+            <input type = "text" id = "lname" name = "lastname" placeholder = "Last Name"> </br><br>
             <label for = "email" class = "formlabel">Email</label> <br>
-            <input type = "text" id="email" name="useremail" placeholder="email"> </br>
+            <input type = "text" id="email" name="useremail" placeholder="email"> </br><br>
             <label for = "subject" class = "formlabel">Subject</label> <br>
-            <textarea id = "message" name="message" placeholder = "message"></textarea> </br>
+            <textarea id = "message" name="message" placeholder = "message"></textarea> </br><br>
             <input type = "submit" value = "Submit" id = "submit">
         </div>
     </div>
-
-    <!-- FROM EXAMPLE -->
-    <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-        <div id="myDropdown" class="dropdown-content">
-          <p>Home</p>
-        </div>
-      </div>
+</div>   
 </body>
-
 </html>
