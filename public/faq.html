@@ -28,12 +28,27 @@
     
     <!-- FAQ Questions and Answers - going to use javascript to make the FAQ responsive -->
     <div class="questions">
-        <p><strong>What is eTherapy?</strong></p>
-        <p>eTherapy is an online therapy platform focused on providing individuals and families with a variety of services. We aim to make our services easily and quickly accessible, as well as private, secure, and trusted.</p>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropDownBtn"><strong>What is eTherapy?</strong></button>
+            <div id="dropDownInfo" class="dropdown-content">
+              <p>eTherapy is an online therapy platform focused on providing individuals and families with a variety of services. We aim to make our services easily and quickly accessible, as well as private, secure, and trusted.</p>
+            </div>
+        </div>
 
-        <p><strong>Who will be my therapist?</strong></p>
-        <p>Our therapists are licensed and trained in their area of study. We have a variety of therapists, each with a specific focus. You may reach out 
-            to a specific therapist if you would like to begin sessions with them or you can use the survey to be matched with therapists that suit your needs. All of our therapists are listed on the home page for further viewing.</p>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropDownBtn"><strong>Who will be my therapist?</strong></button>
+            <div id="dropDownInfo" class="dropdown-content">
+              <p>Our therapists are licensed and trained in their area of study. We have a variety of therapists, each with a specific focus. You may reach out 
+                to a specific therapist if you would like to begin sessions with them or you can use the survey to be matched with therapists that suit your needs. All of our therapists are listed on the home page for further viewing.</p>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropDownBtn"><strong>How can I be sure that the therapists are certified?</strong></button>
+            <div id="dropDownInfo" class="dropdown-content">
+              <p>Each of our therapists are hired following an in-depth background check, ensuring that their lincenses are real and up-to-date. All therapists must complete several training sessions with eTherapy before being accepted.x</p>
+            </div>
+        </div>
 
         <p><strong>How can I be sure that the therapists are certified?</strong></p>  
         <p>Each of our therapists are hired following an in-depth background check, ensuring that their lincenses are real and up-to-date. All therapists must complete several training sessions with eTherapy before being accepted.</p> 
@@ -121,9 +136,9 @@
     <div class="dropdown">
         <button onclick="myFunction()" class="dropbtn">Dropdown</button>
         <div id="myDropdown" class="dropdown-content">
-          <a href="#">Link 1</a>
+          <p>Home</p>
         </div>
-    </div>
+      </div>
 </body>
 
 </html>
