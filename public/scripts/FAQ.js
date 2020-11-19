@@ -16,12 +16,15 @@ function questionForm(){
 const submitButton = document.getElementById("submit");
 submitButton.addEventListener("click", questionForm);
 
-
+//-----------------------------------------------------------
 // FROM EXAMPLE 
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("dropDownInfo").classList.toggle("show");
+function myFunction(x) {
+    var ID = "dropDownInfo" + x.toString();
+    console.log(ID);
+    //console.log(document.getElementById(ID));
+    document.getElementById(ID).classList.toggle("show");
   }
   
   // Close the dropdown if the user clicks outside of it
