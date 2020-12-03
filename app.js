@@ -18,3 +18,8 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
 module.exports = app;
+
+//From class ?
+var apiRouter = require("/routes/api"); 
+app.use("", apiRouter);
+

@@ -16,6 +16,7 @@
           <a href="therapy.html">Attend Therapy</a>
           <a  href="Reviews.html">Reviews</a>
           <a href="faq.html">FAQ's</a>
+          <a href="account.html">Account</a>
         </nav>
         <p id="gridItem3"> Login </p>
     </div>
@@ -26,7 +27,7 @@
         <p>If you would like to begin your journey with eTherapy, please take the survey below. </br>
         We will use our expertise to match you with a therapist, as well determine what you may be struggling with. </p>
 
-        <form>
+        <form action="/api" method="POST">
             <label for="firstName"> First name: </label> <input type="text" name="firstName"> <br><br>
             <label for="lastName"> Last name: </label> <input type="text" name="lastName"> <br><br>
             <label for="email"> Email: </label> <input type="text" name="email">
