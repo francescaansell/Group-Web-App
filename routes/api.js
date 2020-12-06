@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
+
 router.get('/', function(req, res, next) {
   res.send('get endpoint hit!');
 });
@@ -13,12 +14,11 @@ router.post('/userData', function(req, res, next) {
 
 });
 
+
 module.exports = router;
 
 /*
 create user object (model)
 put in database 
 log in seperate request 
-
-
 */
