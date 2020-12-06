@@ -1,4 +1,3 @@
-alert();
 function reviewForm(){
 	let fName = document.getElementById("fname");
 	let lName = document.getElementById("lname");
