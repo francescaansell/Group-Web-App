@@ -10,7 +10,7 @@ function questionForm(){
 	fname.value = null;
 	lName.value = null;
 	email.value = null;
-    message.value = null;
+  message.value = null;
 }
 
 const submitButton = document.getElementById("submit");
