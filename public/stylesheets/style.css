@@ -285,6 +285,14 @@ button {
   padding-top: 500px;
 }
 
+#delete {
+  color: black;
+  background-color: #fd7463;
+  border-radius: 5pt;
+  font-family: Alegreya;
+  font-size: 14pt;
+}
+
 /*RESPONSIVE DESIGN */
 @media only screen and (max-width: 900px){
   #flex1 {

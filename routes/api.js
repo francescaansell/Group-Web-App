@@ -17,8 +17,3 @@ router.post('/userData', function(req, res, next) {
 
 module.exports = router;
 
-/*
-create user object (model)
-put in database 
-log in seperate request 
-*/
