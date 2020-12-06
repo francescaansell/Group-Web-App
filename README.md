@@ -7,18 +7,38 @@ _Francesca Ansell, Elissa McNeil, Dylan Tellei_
   - Ensure that the command works and that there are no errors.
 3. Open up a webpage, and type in "localhost:3000." Hit enter. The webpage should be visible. 
 
+# Sprint Three: 
+## Contribution Breakdown:
+#### Home Page:
+
+
+#### Getting Started Page:
+
+
+#### Attend Therapy Page:
+
+
+#### Ratings/Reviews:
+Elissa fixed the issues from Sprint 2 in order to be re-assessed.
+
+#### FAQ: 
+Elissa finalized the interactive drop-down boxes for the questions and answers.
+
+#### Account:
+Frankie created the "Account Page."
+
 # Sprint Two: 
 ## Contribution Breakdown:
 #### Home Page:
 Dylan added a slideshow using Javascript to enhance the format of the home page, drawing users in. 
 
 #### Getting Started Page:
-Frankie fixed up some previous issues that we had with the survey.ll
+Frankie fixed up some previous issues that we had with the survey.
 
 #### Attend Therapy Page:
 Frankie added a scheduling API, so that users can schedule their sessions. 
 
-#### Ratings:
+#### Ratings/Reviews:
 Frankie added a reviews section that lists others' reviews of eTherapy. Elissa and Frankie also added a review submission form to the page as well.
 
 #### FAQ: 
