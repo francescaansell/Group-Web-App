@@ -48,8 +48,12 @@ app.post("/create", function(req, res) {
         
       }
    });
+
+   res.status(200).redirect('/account.html');
+
   });
-  
+ 
+//Add update/delete here aka get and delete
 
 module.exports = app;
 
