@@ -19,6 +19,26 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/api', apiRouter);
 
+//from mongo assignments
+app.post("/create", function(req, res) {
+    // Create a user from the submitted form data
+    var aco = new Account({
+      username: req.body.username,
+      password: req.body.password,
+     
+   });
+  
+   stu.save(function(err, stu) {
+      if (err) {
+         res.status(400).send(err);
+      } 
+      else {
+         res.send("Account was saved.");
+      }
+   });
+  });
+  module.exports = app;
+  
 module.exports = app;
 
 
