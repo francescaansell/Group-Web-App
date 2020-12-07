@@ -4,7 +4,13 @@ var mongoose = require("mongoose");
 //change so that is points to the cluster
 //mongoose.connect("mongodb://localhost/mydb");
 
-mongoose.connect("mongodb+srv://fla5029:Febuary2819@etherapy.t8qcl.mongodb.net/mydb?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://fla5029:Febuary2819@etherapy.t8qcl.mongodb.net/mydb?retryWrites=true&w=majority",
+{
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+}
+
+);
 
 module.exports = mongoose;
 

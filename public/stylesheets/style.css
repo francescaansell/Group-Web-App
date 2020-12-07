@@ -280,6 +280,14 @@ button {
 }
 
 /* Account Page -----------------------------------*/
+#accountFlex {
+  display:flex;
+}
+
+#accountFlex div{
+  padding: 20px;
+  margin: 10px;
+}
 
 #h3 {
   padding-top: 500px;
