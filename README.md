@@ -1,22 +1,24 @@
 _Francesca Ansell, Elissa McNeil, Dylan Tellei_
 
 ## Starting the Web App:
-1. Enter "npm install" into your Visual Studio Code terminal 
+1. Enter "npm install" into your Visual Studio Code terminal.
   - Ensure that the packets are added and there are no errors.
-2. Enter "npm start" into your Visual Studio Code terminal
+2. Enter "npm install body-parser mongoose" into your Visual Studio Code terminal.
+  - Ensure that the packets are added and there are no errors.
+3. Enter "npm start" into your Visual Studio Code terminal.
   - Ensure that the command works and that there are no errors.
-3. Open up a webpage, and type in "localhost:3000." Hit enter. The webpage should be visible. 
+4. Open up a webpage, and type in "localhost:3000." Hit enter. The webpage should be visible. 
 
 # Sprint Three: 
 ## Contribution Breakdown:
 #### Home Page:
-
+No new additions.
 
 #### Getting Started Page:
-
+Frankie created an internal API to store the survey information.
 
 #### Attend Therapy Page:
-
+No new additions.
 
 #### Ratings/Reviews:
 Elissa fixed the issues from Sprint 2 in order to be re-assessed.
@@ -25,7 +27,7 @@ Elissa fixed the issues from Sprint 2 in order to be re-assessed.
 Elissa finalized the interactive drop-down boxes for the questions and answers.
 
 #### Account:
-Frankie created the "Account Page" and created the account creation, deletion, and update interactions to implement CRUD functionality. Elissa created help information for users. 
+Frankie created the "Account Page" and Frankie and Dylan created the account creation, deletion, and update interactions to implement CRUD functionality. Elissa created help information for users. 
 
 # Sprint Two: 
 ## Contribution Breakdown:

@@ -11,15 +11,17 @@ function getUserData(){
     console.log("getUserData");
     $.ajax({
         method:'get',
-        url:'/api/userData',
+        url:'/api/userData/',
         success: success
     });
 }
 
 function success(data){
-    console.log(data);
     console.log(data.firstName);
-    document.getElementById("body").innerText = data.firstName;
+    for (i in data){
+        console.log(data.i);
+    }
+    document.getElementById("userinfo").innerText = data;
     
 }
     

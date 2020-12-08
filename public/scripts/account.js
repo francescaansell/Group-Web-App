@@ -1,4 +1,7 @@
-//document.getElementById("submit").addEventListener("click", function () { alert("Your account has been created") } )
+document.getElementById("1").addEventListener("click", function () { alert("Your account has been created") } )
+document.getElementById("2").addEventListener("click", function () { alert("Your account has been deleted") } )
+document.getElementById("3").addEventListener("click", function () { alert("Your password has been updated") } )
+
 
 // toggle show/hide for help info
 var visible = document.getElementById("infoForHelp");
