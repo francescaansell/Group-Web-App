@@ -285,7 +285,7 @@ button {
   padding-top: 500px;
 }
 
-#delete {
+.accountButton {
   color: black;
   background-color: #fd7463;
   border-radius: 5pt;
