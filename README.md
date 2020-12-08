@@ -25,7 +25,7 @@ Elissa fixed the issues from Sprint 2 in order to be re-assessed.
 Elissa finalized the interactive drop-down boxes for the questions and answers.
 
 #### Account:
-Frankie created the "Account Page."
+Frankie created the "Account Page" and created the account creation, deletion, and update interactions to implement CRUD functionality. Elissa created help information for users. 
 
 # Sprint Two: 
 ## Contribution Breakdown:
