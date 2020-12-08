@@ -1,26 +1,22 @@
 var express = require('express');
 var router = express.Router();
 
+console.log("api.js");
 
-router.get('/api/userData', function(req, res, next) {
+
+router.get('/', function(req, res, next) {
   res.send('get endpoint hit!');
 });
 
-router.post('/api/userData', function(req, res, next) {
-    userData = req.body;
-    if (err) {
-      res.status(400).send(err);
-      console.log("Error");
-    } 
-    else {
-      res.send("Data was posted");
-      console.log(req.body);
-    }
-    
-    //res.status(200).redirect('/account.html');
-
+router.get("/userData", function(req, res, next){
+  res.send("get userData endpoint hit");
 });
 
+router.post('/userData' , function(req, res, next) {
+    console.log(req.body);
+    //res.send("posted");
+    res.redirect("/survey1.html");
+});
 
 module.exports = router;
 
