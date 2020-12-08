@@ -4,6 +4,7 @@ _Francesca Ansell, Elissa McNeil, Dylan Tellei_
 1. Enter "npm install" into your Visual Studio Code terminal.
   - Ensure that the packets are added and there are no errors.
 2. Enter "npm install body-parser mongoose" into your Visual Studio Code terminal.
+  - Ensure that the packets are added and there are no errors.
 3. Enter "npm start" into your Visual Studio Code terminal.
   - Ensure that the command works and that there are no errors.
 4. Open up a webpage, and type in "localhost:3000." Hit enter. The webpage should be visible. 
@@ -14,7 +15,7 @@ _Francesca Ansell, Elissa McNeil, Dylan Tellei_
 No new additions.
 
 #### Getting Started Page:
-Frankie created an API with the survey information.
+Frankie created an internal API to store the survey information.
 
 #### Attend Therapy Page:
 No new additions.
