@@ -54,28 +54,18 @@ app.post("/account", function(req, res) {
       }
    });
 
-   //res.status(200).redirect('/account.html');
+   res.status(200).redirect('/account.html');
 
   });
 
 //https://learn.zybooks.com/zybook/PSUIST256Fall2020/chapter/11/section/8?content_resource_id=41953012
 
 //No errors but doesn't delete anything 
-
 app.delete("/account", function(req, res) {
     console.log("Delete");
-//app.get("/remove", function(req, res) {
-
-    /*
-    var account = new Account({
-        username: req.body.username,
-        password: req.body.password,
-        
-       
-     });
-
-     */
-    console.log("delete");
+    console.log("");
+     
+    
     Account.remove( {username: req.body.username, password: req.body.password} , function(err) {
         if (err) {
             res.status(400).send(err);
@@ -85,13 +75,12 @@ app.delete("/account", function(req, res) {
         }
     }); 
 
-    //res.status(200).redirect("/account.html")
+    res.status(200).redirect("/account.html")
 });
 
 //No errors but doesnt update anything
 app.put("/account", function(req, res){
-//app.get("/update", function(req, res) {
-   
+
     Account.update( {username: req.body.username, password: req.body.oldPassword},  {username: req.body.username, password: req.body.newPassword } , function(err) {
         if (err) {
             res.status(400).send(err);
