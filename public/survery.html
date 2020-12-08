@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="images/heart.svg">
   <link rel="stylesheet" href="stylesheets/style.css">
-  <script src="scripts/survey.js" defer></script>
+  
 </head>
 <body>
     <div id="gridContainer">
@@ -26,7 +26,7 @@
         <h1>Getting Started</h1>
         <p>If you would like to begin your journey with eTherapy, please take the survey below. </br>
         We will use our expertise to match you with a therapist, as well determine what you may be struggling with. </p>
-
+        <div id="body">
         <form action="/api/userData" method="post">
             <label for="firstName"> First name: </label> <input type="text" name="firstName"> <br><br>
             <label for="lastName"> Last name: </label> <input type="text" name="lastName"> <br><br>
@@ -36,49 +36,50 @@
             <label for="password"> Create a password: </label> <input type="password" name="password">
             <h4> Answer the following questions based on the past 2 weeks</h4>
             <p>How often do you feel axious?</p>
-            <input type="radio" name="q1" id="0 to 2 days"><label for="0 to 2 days"> 0 to 2 days </label> 
-            <input type="radio" name="q1" id="3 to 5 days"><label for="3 to 5 days"> 3 to 5 days </label> 
-            <input type="radio" name="q1" id="6 to 7 days"><label for="6 to 7 days"> 6 to 7 days </label> 
+            <input type="radio" name="q1" id="q1 0 to 2 days"><label for="0 to 2 days"> 0 to 2 days </label> 
+            <input type="radio" name="q1" id="q1 3 to 5 days"><label for="3 to 5 days"> 3 to 5 days </label> 
+            <input type="radio" name="q1" id="q1 6 to 7 days"><label for="6 to 7 days"> 6 to 7 days </label> 
             <p>How often do you feel so sad that it impacts your day?</p>
-            <input type="radio" name="q2" id="0 to 2 days"><label for="0 to 2 days"> 0 to 2 days </label>
-            <input type="radio" name="q2" id="3 to 5 days"><label for="3 to 5 days"> 3 to 5 days </label>
-            <input type="radio" name="q2" id="6 to 7 days"><label for="6 to 7 days"> 6 to 7 days </label>
+            <input type="radio" name="q2" id="q2 0 to 2 days"><label for="0 to 2 days"> 0 to 2 days </label>
+            <input type="radio" name="q2" id="q2 3 to 5 days"><label for="3 to 5 days"> 3 to 5 days </label>
+            <input type="radio" name="q2" id="q2 6 to 7 days"><label for="6 to 7 days"> 6 to 7 days </label>
             <p>How often are you worried to particapte in activites because you are worried you will have a panic attack?</p>
-            <input type="radio" name="q3" id="0 to 2 days"><label for="0 to 2 days"> 0 to 2 days </label>
-            <input type="radio" name="q3" id="3 to 5 days"><label for="3 to 5 days"> 3 to 5 days </label>
-            <input type="radio" name="q3" id="6 to 7 days"><label for="6 to 7 days"> 6 to 7 days </label>
+            <input type="radio" name="q3" id="q3 0 to 2 days"><label for="0 to 2 days"> 0 to 2 days </label>
+            <input type="radio" name="q3" id="q3 3 to 5 days"><label for="3 to 5 days"> 3 to 5 days </label>
+            <input type="radio" name="q3" id="q3 6 to 7 days"><label for="6 to 7 days"> 6 to 7 days </label>
             <p>How often does the tramua of a past event effect your life?</p>
-            <input type="radio" name="q4" id="0 to 2 days"><label for="0 to 2 days"> 0 to 2 days </label>
-            <input type="radio" name="q4" id="3 to 5 days"><label for="3 to 5 days"> 3 to 5 days </label>
-            <input type="radio" name="q4" id="6 to 7 days"><label for="6 to 7 days"> 6 to 7 days </label>
+            <input type="radio" name="q4" id="q4 0 to 2 days"><label for="0 to 2 days"> 0 to 2 days </label>
+            <input type="radio" name="q4" id="q4 3 to 5 days"><label for="3 to 5 days"> 3 to 5 days </label>
+            <input type="radio" name="q4" id="q4 6 to 7 days"><label for="6 to 7 days"> 6 to 7 days </label>
             <p>How often are you unable to sleep or sleep too much?</p>
-            <input type="radio" name="q5" id="0 to 2 days"><label for="0 to 2 days"> 0 to 2 days </label>
-            <input type="radio" name="q5" id="3 to 5 days"><label for="3 to 5 days"> 3 to 5 days </label>
-            <input type="radio" name="q5" id="6 to 7 days"><label for="6 to 7 days"> 6 to 7 days </label>
+            <input type="radio" name="q5" id="q5 0 to 2 days"><label for="0 to 2 days"> 0 to 2 days </label>
+            <input type="radio" name="q5" id="q5 3 to 5 days"><label for="3 to 5 days"> 3 to 5 days </label>
+            <input type="radio" name="q5" id="q5 6 to 7 days"><label for="6 to 7 days"> 6 to 7 days </label>
             <h4> Rate how closely the statement applies to yourself (1 being unlike you, 5 being very similar):</h4>
             <p>I get angry very easily.</p>
-            <input type="radio" name="q6" id="1"><label for="1">1</label>
-            <input type="radio" name="q6" id="2"><label for="2">2</label>
-            <input type="radio" name="q6" id="3"><label for="3">3</label>
-            <input type="radio" name="q6" id="4"><label for="4">4</label>
-            <input type="radio" name="q6" id="5"><label for="5">5</label>
+            <input type="radio" name="q6" id="q6 1"><label for="1">1</label>
+            <input type="radio" name="q6" id="q6 2"><label for="2">2</label>
+            <input type="radio" name="q6" id="q6 3"><label for="3">3</label>
+            <input type="radio" name="q6" id="q6 4"><label for="4">4</label>
+            <input type="radio" name="q6" id="q6 5"><label for="5">5</label>
             <p>I have a hard time making friends.</p>
-            <input type="radio" name="q7" id="1"><label for="1">1</label>
-            <input type="radio" name="q7" id="2"><label for="2">2</label>
-            <input type="radio" name="q7" id="3"><label for="3">3</label>
-            <input type="radio" name="q7" id="4"><label for="4">4</label>
-            <input type="radio" name="q7" id="5"><label for="5">5</label>
+            <input type="radio" name="q7" id="q7 1"><label for="1">1</label>
+            <input type="radio" name="q7" id="q7 2"><label for="2">2</label>
+            <input type="radio" name="q7" id="q7 3"><label for="3">3</label>
+            <input type="radio" name="q7" id="q7 4"><label for="4">4</label>
+            <input type="radio" name="q7" id="q7 5"><label for="5">5</label>
             <p>I feel worthless.</p>
-            <input type="radio" name="q8" id="1"><label for="1">1</label>
-            <input type="radio" name="q8" id="2"><label for="2">2</label>
-            <input type="radio" name="q8" id="3"><label for="3">3</label>
-            <input type="radio" name="q8" id="4"><label for="4">4</label>
-            <input type="radio" name="q8" id="5"><label for="5">5</label>
+            <input type="radio" name="q8" id="q8 1"><label for="1">1</label>
+            <input type="radio" name="q8" id="q8 2"><label for="2">2</label>
+            <input type="radio" name="q8" id="q8 3"><label for="3">3</label>
+            <input type="radio" name="q8" id="q8 4"><label for="4">4</label>
+            <input type="radio" name="q8" id="q8 5"><label for="5">5</label>
             <br><br>
             <label for="reasons">What do you believe are your main reasons for joining eTherapy?</label><br>
             <textarea name="reasons" cols="70" rows="10"></textarea>
 
             <br><br><input type="submit" id="Submit">
+        </div>
     </div>
 </body>
 

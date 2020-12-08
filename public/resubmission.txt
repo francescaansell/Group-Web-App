@@ -1,0 +1,11 @@
+Resubmission for Sprint 2:
+
+In sprint two, we received a point off for our reviews page as there were some invalid characters that made the file malformed.
+These characters came from Elissa's notes app as she wrote the code there and sent it to Frankie to add to the file because
+her branch had been messed up and she needed to consult Dr.Haynes the next day in order to figure out how to fix it. It seems
+as if the quotation marks were causing the issue, so we made sure 
+
+In order to fix the reviews page, we removed the code that contained the review/rating submission form from the reviews.html
+and reviews.js files and completely rewrote them. It seems as if the quotation marks were causing the issue, so we made sure 
+to re-write the code incase any other special characters would show up as invalid as well. This ensured that the text would 
+be correct and understood and that the submission form worked properly. 

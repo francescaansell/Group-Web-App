@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="images/heart.svg">
   <link rel="stylesheet" href="stylesheets/style.css">
+  <script src="scripts/reviews.js" defer></script>
 </head>
 <body>
     <div id="gridContainer">
@@ -40,40 +41,35 @@
         <h4>Great alternative to inperson  &starf; &starf; &starf; &starf; &starf;</h4>
         <p> During this pandemic I had issues trying to find therapists that were accepting new paitents. It makes it even harder that no one can be seen in person. This was a great option for me so that I could continue to attend therapy during isloation. </p>
       </div>
-
-      
-
       </div>
-      <!-- Add Personal Review -->
-        <div class = "newQuestion">
-          <div class = "questionMessage">
-            </br>
-            <h2>Add your own review of eTherapy: </h2>
-            <p>Submit your review. We will check it out and post it for others to see.</p>
-          </div>
-          <div id= "questionForm">
-            <label for = "fname" class = "formlabel">First Name</label> <br>
-            <input type = "text" id="fname" name="firstname" placeholder="First Name"> <br><br>
-            <label for = "lname" class = "formlabel"> Last Name</label> <br>
-            <input type = "text" id = "lname" name = "lastname" placeholder = "Last Name"> <br><br>
-            <label for = "memberLength" class = "formlabel">Member for: (e.g. 2 months, 1 week, 4 years)</label> <br>
-            <input type = "text" id="memberLength" name="usermembermength" placeholder="Member Length"> <br><br>
-            <label for = "review" class = "formlabel">Review</label> <br>
-            <textarea id = "review" name="review" placeholder = "review"></textarea> <br>
-            <p> Select your numerical rating out of 5 </p>
-            <input type="radio" name="rating" id="1"><label for="1"> 1 </label> 
-            <input type="radio" name="rating" id="2"><label for="2"> 2 </label> 
-            <input type="radio" name="rating" id="3"><label for="3"> 3 </label> 
-            <input type="radio" name="rating" id="4"><label for="4"> 4 </label> 
-            <input type="radio" name="rating" id="5"><label for="5"> 5 </label> <br><br><br>
-            <input type = "submit" value = "Submit" id = "submit">
+    
+
+    <!-- Add Personal Review -->
+    <div class = "newReview">
+      <div class = "reviewMessage">
+          </br>
+          <h2>Add your own review of eTherapy:</h2>
+          <p>Submit your review. We will check it out and post it for others to see.</p>
       </div>
-  </div>
-
-
-
+      <div id= "reviewForm">
+          <label for = "fname" class = "formlabel">First Name</label> <br>
+          <input type = "text" id="fname" name="firstname" placeholder="First Name"> </br><br>
+          <label for = "lname" class = "formlabel"> Last Name</label> <br>
+          <input type = "text" id = "lname" name = "lastname" placeholder = "Last Name"> </br><br>
+          <label for = "memberLength" class = "formlabel">Length of Membership (e.g. Two years)</label> <br>
+          <input type = "text" id="memberLength" name="member" placeholder="Length of Membership"> </br><br>
+          <label for = "review" class = "formlabel">Review</label> <br>
+          <textarea id = "review" name="reviewMessage" placeholder = "review"></textarea> </br><br>
+          <p> Select your numerical rating out of 5 </p>
+          <input type="radio" name="rating" id="1"><label for="1"> 1 </label> 
+          <input type="radio" name="rating" id="2"><label for="2"> 2 </label> 
+          <input type="radio" name="rating" id="3"><label for="3"> 3 </label> 
+          <input type="radio" name="rating" id="4"><label for="4"> 4 </label> 
+          <input type="radio" name="rating" id="5"><label for="5"> 5 </label> <br><br><br> 
+          <input type = "submit" value = "Submit" id = "submit">
+      </div>
     </div>
-
+  </div>
 </body>
 
 </html>
